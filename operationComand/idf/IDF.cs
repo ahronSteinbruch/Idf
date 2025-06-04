@@ -15,7 +15,8 @@ namespace Idf
         public DateTime DateEstablished { get; } = new DateTime(1948, 5, 14);
 
         public Comander CurrentCommander { get; set; }
-       
+        
+        public Aman aman = new Aman();
        
         public StrikeWoeaponsArsenal strikeWoeaponsArsenal;
 

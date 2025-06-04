@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.idf.strikeWoeaponsArsenal
+namespace Idf
 {
     internal class Zik : AttackTool
     {
-        public Zik(string name, int ammunt, List<Goals> effectivTergets, Location location, int restTime) :base(name,ammunt,effectivTergets,location,restTime)
+        public Zik(string name,Soldier maphil, int ammunt, List<Goals> effectivTergets, Location location, int restTime) :base(name,ammunt,effectivTergets,location,restTime)
         {
             this.name = name;
-            this.AmmunitionStrikeCapacity = ammunitionStrikeCapacity;
+            this.AmmunitionStrikeCapacity = ammunt;
             this.EffectiveGoals = new List<Goals> {Goals.People, Goals.Vehicles};
-            this.location = new Location(location);
+            this.location = location;
         }
     }
 }

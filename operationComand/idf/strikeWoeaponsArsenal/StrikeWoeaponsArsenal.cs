@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.idf.strikeWoeaponsArsenal
+namespace Idf
 {
     public class StrikeWoeaponsArsenal
     {
         
-        List<> attackToolsArsenal;
+        List<AttackTool> attackToolsArsenal;
         
         public StrikeWoeaponsArsenal()
         {

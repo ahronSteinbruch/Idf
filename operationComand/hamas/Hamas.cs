@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.hamas
+namespace Idf
 {
 
     internal class Hamas
@@ -35,7 +35,10 @@ namespace kodkodIdf.operationComand.hamas
         {
             this.terroristsMembers.Remove(getTerrorist(name));
         }
-
+        public TerroristPriorityTree getAllTerrorist()
+        {
+            return terroristsMembers;
+        }
 
     }
 

@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using kodkodIdf.operationComand.helpersClasses.abstracts;
-using kodkodIdf.operationComand.helpersClasses.interFace;
-using kodkodIdf.operationComand.Enums;
 
-namespace kodkodIdf.operationComand.idf.strikeWoeaponsArsenal
+namespace Idf
 {
     internal class FighterJet : AttackTool,IfuelSistem  
     {
         int fule;
         int FuleCapaciti;
         Soldier pylot;
-        public FighterJet(string name, Soldier pylot, int restTime, int fuleCapaciti, int ammunitionStrikeCapacity, List<Goals> strikesCapacity, Location location) : base(name, ammunitionStrikeCapacity, location, restTime)
+        public FighterJet(string name, Soldier pylot, int restTime, int fuleCapaciti, 
+            int ammunitionStrikeCapacity, List<Goals> strikesCapacity, Location location) :
+            base(name, ammunitionStrikeCapacity, strikesCapacity, location, restTime)
         {
             this.fule = fuleCapaciti;
             this.FuleCapaciti = fuleCapaciti;

@@ -1,7 +1,7 @@
 
 using System;
 
-namespace kodkodIdf.operationComand.helpersClasses
+namespace Idf
 {
 
     public enum IntelSourceType

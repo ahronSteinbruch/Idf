@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.idf.strikeWoeaponsArsenal
+namespace Idf
 {
     internal class WoeaponsArsenal
     {

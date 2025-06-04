@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.hamas
+namespace Idf
 {
 
     public class TerroristPriorityTree
     {
-        long id = 0;
         private SortedSet<Terrorist> _tree;
 
         public TerroristPriorityTree()

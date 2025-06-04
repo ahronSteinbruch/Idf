@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.idf.operationReport
+namespace Idf
 {
-    internal class Report
+    public class Report
     {
+
     }
 }

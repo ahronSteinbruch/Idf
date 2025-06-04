@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using kodkodIdf.operationComand.helpersClasses.Helpers;
-using kodkodIdf.operationComand.helpersClasses.interFace;
 
-namespace kodkodIdf.operationComand.idf.strikeWoeaponsArsenal
+
+namespace Idf
 {
     internal class Artillery : AttackTool,IfuelSistem
     {
         int fule;
         int FuleCapaciti;
-        public Artillery(string name,int restTime,int fuleCapaciti, int ammunitionStrikeCapacity,List<Goals> strikesCapacity, Location location):base(name, ammunitionStrikeCapacity, location, restTime)
+        public Artillery(string name,int restTime,int fuleCapaciti, int ammunitionStrike,
+            int Capacity,List<Goals> strikesCapacity, Location location):
+            base(name, ammunitionStrike, strikesCapacity, location, restTime)
         {
            this.fule = fuleCapaciti;
             this.FuleCapaciti = fuleCapaciti;

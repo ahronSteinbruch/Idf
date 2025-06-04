@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.helpersClasses.abstracts
+namespace Idf
 {
     public abstract class Person
     {

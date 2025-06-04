@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.helpersClasses.Helpers
+namespace Idf
 {
 
     public class Location

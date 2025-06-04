@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.helpersClasses.interFace
+namespace Idf
 {
     interface IfuelSistem
     {

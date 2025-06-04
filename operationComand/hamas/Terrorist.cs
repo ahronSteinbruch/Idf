@@ -1,13 +1,10 @@
-﻿using kodkodIdf.operationComand.helpersClasses;
-using kodkodIdf.operationComand.helpersClasses.abstracts;
-using kodkodIdf.operationComand.helpersClasses.Helpers;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.hamas
+namespace Idf
 {
     public enum WeaponType
     {

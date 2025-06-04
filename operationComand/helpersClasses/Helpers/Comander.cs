@@ -1,11 +1,10 @@
-﻿using kodkodIdf.operationComand.helpersClasses.abstracts;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kodkodIdf.operationComand.helpersClasses
+namespace Idf
 {
     public class Comander :Soldier
     {
