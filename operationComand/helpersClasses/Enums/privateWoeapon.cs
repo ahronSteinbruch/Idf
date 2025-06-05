@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Idf
 {
-    public enum PersonalWeaponType
+    public enum WeaponType
     {
         Knife = 1,
-
-        Rifle = 3 // Includes M16, AK47, etc.
+        Pistol = 2,
+        Rifle = 3
     }
 
 }

@@ -6,13 +6,6 @@ using System.Threading.Tasks;
 
 namespace Idf
 {
-    public enum WeaponType
-    {
-        Knife = 1,
-        Pistol = 2,
-        Rifle = 3
-    }
-
     public class Terrorist : Person
     {
         public static long uniqIdGeneretor;

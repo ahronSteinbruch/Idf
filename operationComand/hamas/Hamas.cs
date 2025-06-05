@@ -9,7 +9,7 @@ namespace Idf
 
     internal class Hamas
     {
-        public DateTime DateEstablished {get; } = new DateTime(1987, 10, 12);
+        public DateTime DateEstablished = new DateTime(1987, 10, 12);
         private TerroristPriorityTree terroristsMembers;
         private string correntComander { get; set; }
         public Hamas(string correntComanderName)
